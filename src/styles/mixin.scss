@@ -1,0 +1,11 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin testborder{
+  border:2px solid red;
+}

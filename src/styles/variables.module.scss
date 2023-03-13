@@ -1,0 +1,31 @@
+// main theme color
+$main-theme-color: #1a67a3;
+// $main-theme-color-hover: rgba(26, 103, 163, 0.6);
+$main-theme-color-hover: #103e62;
+$main-theme-color-active: #175a8e;
+$main-theme-color-light: #c1dfff;
+
+// text-color
+$text-color-white:#ffffff;
+
+
+
+// base color
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+
+
+:export {
+  main-theme-color: $main-theme-color;
+  main-theme-color-hover: $main-theme-color-hover;
+  main-theme-color-active: $main-theme-color-active;
+  main-theme-color-light: $main-theme-color-light;
+  text-color-white:$text-color-white;
+}

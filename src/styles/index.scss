@@ -1,0 +1,13 @@
+@import './variables.module.scss';
+@import './mixin.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+@import './btn.scss';
+
+.testborder{
+    border: 2px solid red;
+}
+
+@mixin testborderMinx{
+    border:1px solid red;
+  }
